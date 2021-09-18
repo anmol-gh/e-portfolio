@@ -11,14 +11,23 @@ const DataLhtl = () => {
               Week 1
             </h2>
             <p className="text-pink-700 leading-relaxed mb-8">
-              This was our first Living Conversation Class, we were greeted by
-              our teacher Dr. Mariyam Sidhiqui ma'am. We had an Introduction and
-              a Briefing session by ma'am, and the students introduced
-              themselves. It was a really fun session.
+              This was our first Learn How to Learn Class, we were greeted by
+              our teacher <span> </span>
+              <span>
+                <a
+                  className="text-red-800 underline"
+                  href="https://www.upes.ac.in/schools-faculty/department-of-applied-sciences-and-humanities/humanities/dr-mariyam-ilyas-siddiqui"
+                  target="_blank"
+                >
+                  Dr. Mariyam Sidhiqui
+                </a>
+              </span>
+              . We had an Introduction and a Briefing session by ma'am, and
+              the students introduced themselves. It was a really fun session.
             </p>
             <div className="flex items-center flex-wrap pb-4 mb-4 border-b-2 border-green-300 mt-auto w-full">
-              <a className="text-yellow-500 inline-flex items-center">
-                Learn More
+              <a className="cursor-not-allowed text-yellow-500 inline-flex items-center">
+                Media
                 <svg
                   className="w-4 h-4 ml-2"
                   viewBox="0 0 24 24"
@@ -45,14 +54,17 @@ const DataLhtl = () => {
               Week 2
             </h2>
             <p className="text-pink-700 leading-relaxed mb-8">
-              Live-edge letterpress cliche, salvia fanny pack humblebrag narwhal
-              portland. VHS man braid palo santo hoodie brunch trust fund.
-              Bitters hashtag waistcoat fashion axe chia unicorn. Plaid fixie
-              chambray 90's, slow-carb etsy tumeric.
+              In the second week, we were told about the group Projects, I
+              formed a Team consisting of 6 members for the project, I decided
+              to learn C++ and C for the project.
             </p>
             <div className="flex items-center flex-wrap pb-4 mb-4 border-b-2 border-green-300 mt-auto w-full">
-              <a className="text-yellow-500 inline-flex items-center">
-                Learn More
+              <a
+                className="text-yellow-500 inline-flex items-center"
+                href="https://imgur.com/jXvL35U"
+                target="_blank"
+              >
+                Media
                 <svg
                   className="w-4 h-4 ml-2"
                   viewBox="0 0 24 24"
@@ -84,15 +96,26 @@ const DataLhtl = () => {
                 Week 3
               </h2>
               <p className="text-pink-700 leading-relaxed mb-8">
-                This was our first Living Conversation Class, we were greeted by
-                our teacher Mrs. Rekha Verma
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Possimus eius corporis perspiciatis mollitia ab tempore dolor,
+                nam omnis vitae qui temporibus ratione nostrum similique unde
+                veniam id quia, ex explicabo!
               </p>
               <div className="flex items-center flex-wrap pb-4 mb-4 border-b-2 border-green-300 mt-auto w-full">
-                <a className="text-yellow-500 inline-flex items-center">Learn More
-                <svg className="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
-                <path d="M5 12h14"></path>
-                <path d="M12 5l7 7-7 7"></path>
-              </svg>
+                <a className="text-yellow-500 inline-flex items-center">
+                  Media
+                  <svg
+                    className="w-4 h-4 ml-2"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    fill="none"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  >
+                    <path d="M5 12h14"></path>
+                    <path d="M12 5l7 7-7 7"></path>
+                  </svg>
                 </a>
               </div>
               <a className="inline-flex items-center">
@@ -107,14 +130,14 @@ const DataLhtl = () => {
                 Week 4
               </h2>
               <p className="text-pink-700 leading-relaxed mb-8">
-                Live-edge letterpress cliche, salvia fanny pack humblebrag
-                narwhal portland. VHS man braid palo santo hoodie brunch trust
-                fund. Bitters hashtag waistcoat fashion axe chia unicorn. Plaid
-                fixie chambray 90's, slow-carb etsy tumeric.
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                Explicabo, quae impedit? Ad eos, laborum tenetur ipsam ea error
+                earum illum et expedita cum ratione, deserunt rem, magni
+                laboriosam a repellendus?
               </p>
               <div className="flex items-center flex-wrap pb-4 mb-4 border-b-2 border-green-300 mt-auto w-full">
                 <a className="text-yellow-500 inline-flex items-center">
-                  Learn More
+                  Media
                   <svg
                     className="w-4 h-4 ml-2"
                     viewBox="0 0 24 24"
@@ -147,15 +170,26 @@ const DataLhtl = () => {
                 Week 5
               </h2>
               <p className="text-pink-700 leading-relaxed mb-8">
-                This was our first Living Conversation Class, we were greeted by
-                our teacher Mrs. Rekha Verma
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                Explicabo, quae impedit? Ad eos, laborum tenetur ipsam ea error
+                earum illum et expedita cum ratione, deserunt rem, magni
+                laboriosam a repellendus?
               </p>
               <div className="flex items-center flex-wrap pb-4 mb-4 border-b-2 border-green-300 mt-auto w-full">
-                <a className="text-yellow-500 inline-flex items-center">Learn More
-                <svg className="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
-                <path d="M5 12h14"></path>
-                <path d="M12 5l7 7-7 7"></path>
-              </svg>
+                <a className="text-yellow-500 inline-flex items-center">
+                  Media
+                  <svg
+                    className="w-4 h-4 ml-2"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    fill="none"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  >
+                    <path d="M5 12h14"></path>
+                    <path d="M12 5l7 7-7 7"></path>
+                  </svg>
                 </a>
               </div>
               <a className="inline-flex items-center">
@@ -170,14 +204,14 @@ const DataLhtl = () => {
                 Week 6
               </h2>
               <p className="text-pink-700 leading-relaxed mb-8">
-                Live-edge letterpress cliche, salvia fanny pack humblebrag
-                narwhal portland. VHS man braid palo santo hoodie brunch trust
-                fund. Bitters hashtag waistcoat fashion axe chia unicorn. Plaid
-                fixie chambray 90's, slow-carb etsy tumeric.
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                Explicabo, quae impedit? Ad eos, laborum tenetur ipsam ea error
+                earum illum et expedita cum ratione, deserunt rem, magni
+                laboriosam a repellendus?
               </p>
               <div className="flex items-center flex-wrap pb-4 mb-4 border-b-2 border-green-300 mt-auto w-full">
                 <a className="text-yellow-500 inline-flex items-center">
-                  Learn More
+                  Media
                   <svg
                     className="w-4 h-4 ml-2"
                     viewBox="0 0 24 24"
