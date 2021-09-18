@@ -10,8 +10,8 @@ function App() {
     <Router>
       <Switch>
         <Route exact path="/about">
-          <Navbar> </Navbar>
-          <AboutMe></AboutMe>
+          <Navbar/>
+          <AboutMe/>
         </Route>
         <Route exact path="/">
           <Navbar></Navbar>
