@@ -1,7 +1,7 @@
 const DataLhtl = () => {
   return (
     <section className="text-gray-600 body-font overflow-hidden">
-      <div className="container px-5 py-24 mx-auto">
+      <div className="mt-12 container px-5 py-24 mx-auto">
         <div className="flex flex-wrap -m-12">
           <div className="p-12 md:w-1/2 flex flex-col items-start ">
             <span className="text-red-400 inline-block py-1 px-2 rounded bg-yellow-50  text-xs font-medium tracking-widest">
@@ -19,7 +19,7 @@ const DataLhtl = () => {
                   href="https://www.upes.ac.in/schools-faculty/department-of-applied-sciences-and-humanities/humanities/dr-mariyam-ilyas-siddiqui"
                   target="_blank"
                 >
-                  Dr. Mariyam Sidhiqui
+                  Dr. Mariyam Ilyas Siddiqui
                 </a>
               </span>
               . We had an Introduction and a Briefing session by ma'am, and

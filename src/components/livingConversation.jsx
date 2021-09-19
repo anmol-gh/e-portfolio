@@ -11,8 +11,8 @@ const Data = () => {
               Week 1
             </h2>
             <p className="text-pink-700 leading-relaxed mb-8">
-              This was our first Living Conversation, we were greeted by
-              our teacher <span> </span>
+              This was our first Living Conversation, we were greeted by our
+              teacher <span> </span>
               <span>
                 <a
                   className="text-red-800 underline"
@@ -22,8 +22,8 @@ const Data = () => {
                   Rekha Verma ma'am
                 </a>
               </span>
-              . We had an Introduction and a Briefing session by ma'am, and
-              the students introduced themselves. It was a really fun session.
+              . We had an Introduction and a Briefing session by ma'am, and the
+              students introduced themselves. It was a really fun session.
             </p>
             <div className="flex items-center flex-wrap pb-4 mb-4 border-b-2 border-green-300 mt-auto w-full">
               <a className="cursor-not-allowed text-yellow-500 inline-flex items-center">

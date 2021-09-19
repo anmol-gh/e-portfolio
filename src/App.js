@@ -6,7 +6,7 @@ import DataLhtl from "./components/lhtl";
 // import Test from "./components/test";
 import dataTest from "./components/lstl-data.js";
 import Test2 from "./components/test2";
-import Picture from "./components/aboutmeinfographic";
+import Picture from "./components/liv-con/liv-con-week2";
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 
 function App() {
