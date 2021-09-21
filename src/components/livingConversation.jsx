@@ -54,9 +54,7 @@ const Data = () => {
               Week 2
             </h2>
             <p className="text-pink-700 leading-relaxed mb-8">
-              In the second week, we were told about the group Projects, I
-              formed a Team consisting of 6 members for the project, I decided
-              to learn C++ and C for the project.
+              In the second week, ma'am 
             </p>
             <div className="flex items-center flex-wrap pb-4 mb-4 border-b-2 border-green-300 mt-auto w-full">
               <a

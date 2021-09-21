@@ -45,11 +45,11 @@ const Navbar = () => {
           >
             LinkedIn
           </a>
-          <a className="px-3 hover:text-indigo-400 " href="/about">
+          <a className="px-3 hover:text-indigo-400 " href="/team">
             My team
           </a>
         </nav>
-        <a className="inline-flex items-center bg-gray-300 border-0 py-1 px-3 focus:outline-none hover:bg-red-100 hover:text-indigo-600 rounded text-base mt-4 md:mt-0" href="/team">
+        <a className="inline-flex items-center bg-gray-300 border-0 py-1 px-3 focus:outline-none hover:bg-red-100 hover:text-indigo-600 rounded text-base mt-4 md:mt-0" href="/project">
           Team Project
           <svg
             fill="none"
