@@ -7,6 +7,8 @@ import DataLhtl from "./components/lhtl";
 import dataTest from "./components/lstl-data.js";
 import Test2 from "./components/test2";
 import Picture from "./components/liv-con/liv-con-week2";
+import TeamMembers from "./components/teamPage";
+import Footer from "./components/footer";
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 
 function App() {
@@ -14,23 +16,29 @@ function App() {
     <Router>
       <Switch>
         <Route exact path="/team">
-          <h1>Under Construction 🚧</h1>
+          <Navbar />
+          <TeamMembers />
+          <Footer />
         </Route>
         <Route exact path="/">
-          <Navbar></Navbar>
-          <AboutMe></AboutMe>
+          <Navbar />
+          <AboutMe />
+          <Footer />
         </Route>
         <Route exact path="/living-conversation">
-          <Navbar></Navbar>
-          <Data></Data>
+          <Navbar />
+          <Data />
+          <Footer />
         </Route>
         <Route exact path="/lhtl">
-          <Navbar></Navbar>
-          <DataLhtl></DataLhtl>
+          <Navbar />
+          <DataLhtl />
+          <Footer />
         </Route>
         <Route exact path="/liv-con-week-2">
-          <Navbar></Navbar>
-          <Picture></Picture>
+          <Navbar />
+          <Picture />
+          <Footer />
         </Route>
         {/* <Route exact path="/test">
           <Navbar></Navbar>
