@@ -1,5 +1,5 @@
 import header_pic from "./static/header photo.png";
-
+import college_cover from "./static/college-cover-pic.png"
 const AboutMe = () => {
   return (
     <div>
@@ -35,7 +35,11 @@ const AboutMe = () => {
             </div>
           </div>
           <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
-            {/* <img className="object-cover object-center rounded" alt="hero" src="https://dummyimage.com/720x600"> </img> */}
+            <img
+              className="rounded-md object-cover object-center rounded"
+              alt="hero"
+              src={college_cover}
+            ></img>
           </div>
         </div>
       </section>
