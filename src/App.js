@@ -10,7 +10,6 @@ import Picture from "./components/liv-con/liv-con-week2";
 import TeamMembers from "./components/teamPage";
 import Footer from "./components/footer";
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
-
 function App() {
   return (
     <Router>
@@ -42,7 +41,7 @@ function App() {
         </Route>
         {/* <Route exact path="/test">
           <Navbar></Navbar>
-          <Test></Test>
+          <Test data={blabber}></Test>
         </Route> */}
         {/* <Route exact path="/test2">
           <Navbar></Navbar>
