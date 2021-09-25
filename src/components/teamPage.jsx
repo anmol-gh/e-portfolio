@@ -1,3 +1,9 @@
+import anmol from "./static/anmol.png";
+import khushi from "./static/khushi.png";
+import ananya from "./static/ananya.png";
+import arnav from "./static/arnav.png";
+import saransh from "./static/saransh.png";
+import harish from "./static/harish.png";
 const TeamMembers = () => {
   return (
     <div>
@@ -5,11 +11,11 @@ const TeamMembers = () => {
         <div className="container px-5 py-24 mx-auto">
           <div className="flex flex-wrap -m-4">
             <div className="p-4 md:w-1/3">
-              <div className="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
+              <div className="h-full border-2 border-gray-300 border-opacity-60 rounded-lg overflow-hidden">
                 <img
                   className="lg:h-48 md:h-36 w-full object-cover object-center"
-                  src="https://dummyimage.com/720x400"
-                  alt="blog"
+                  src={khushi}
+                  alt="khushi's image"
                 ></img>
                 <div className="p-6">
                   <h2 className="tracking-widest text-xs title-font font-medium text-gray-400 mb-1">
@@ -26,11 +32,11 @@ const TeamMembers = () => {
               </div>
             </div>
             <div className="p-4 md:w-1/3">
-              <div className="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
+              <div className="h-full border-2 border-gray-300 border-opacity-60 rounded-lg overflow-hidden">
                 <img
                   className="lg:h-48 md:h-36 w-full object-cover object-center"
-                  src="https://dummyimage.com/721x401"
-                  alt="blog"
+                  src={saransh}
+                  alt="saransh's image"
                 ></img>
                 <div className="p-6">
                   <h2 className="tracking-widest text-xs title-font font-medium text-gray-400 mb-1">
@@ -47,11 +53,11 @@ const TeamMembers = () => {
               </div>
             </div>
             <div className="p-4 md:w-1/3">
-              <div className="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
+              <div className="h-full border-2 border-gray-300 border-opacity-60 rounded-lg overflow-hidden">
                 <img
                   className="lg:h-48 md:h-36 w-full object-cover object-center"
-                  src="https://dummyimage.com/722x402"
-                  alt="blog"
+                  src={anmol}
+                  alt="anmol's image"
                 ></img>
                 <div className="p-6">
                   <h2 className="tracking-widest text-xs title-font font-medium text-gray-400 mb-1">
@@ -74,18 +80,18 @@ const TeamMembers = () => {
         <div className="container px-5 py-24 mx-auto">
           <div className="flex flex-wrap -m-4">
             <div className="p-4 md:w-1/3">
-              <div className="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
+              <div className="h-full border-2 border-gray-300 border-opacity-60 rounded-lg overflow-hidden">
                 <img
                   className="lg:h-48 md:h-36 w-full object-cover object-center"
-                  src="https://dummyimage.com/720x400"
-                  alt="blog"
+                  src={harish}
+                  alt="harish's image"
                 ></img>
                 <div className="p-6">
                   <h2 className="tracking-widest text-xs title-font font-medium text-gray-400 mb-1">
                     CATEGORY
                   </h2>
                   <h1 className="title-font text-lg font-medium text-gray-900 mb-3">
-                    Harish
+                    Harish Shivhare
                   </h1>
                   <p className="leading-relaxed mb-3">
                     Photo booth fam kinfolk cold-pressed sriracha leggings
@@ -95,11 +101,11 @@ const TeamMembers = () => {
               </div>
             </div>
             <div className="p-4 md:w-1/3">
-              <div className="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
+              <div className="h-full border-2 border-gray-300 border-opacity-60 rounded-lg overflow-hidden">
                 <img
                   className="lg:h-48 md:h-36 w-full object-cover object-center"
-                  src="https://dummyimage.com/721x401"
-                  alt="blog"
+                  src={ananya}
+                  alt="ananya's image"
                 ></img>
                 <div className="p-6">
                   <h2 className="tracking-widest text-xs title-font font-medium text-gray-400 mb-1">
@@ -116,11 +122,11 @@ const TeamMembers = () => {
               </div>
             </div>
             <div className="p-4 md:w-1/3">
-              <div className="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
+              <div className="h-full border-2 border-gray-300 border-opacity-60 rounded-lg overflow-hidden">
                 <img
                   className="lg:h-48 md:h-36 w-full object-cover object-center"
-                  src="https://dummyimage.com/722x402"
-                  alt="blog"
+                  src={arnav}
+                  alt="arnav's image"
                 ></img>
                 <div className="p-6">
                   <h2 className="tracking-widest text-xs title-font font-medium text-gray-400 mb-1">
