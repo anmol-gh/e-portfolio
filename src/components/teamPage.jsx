@@ -40,7 +40,7 @@ const TeamMembers = () => {
                 ></img>
                 <div className="p-6">
                   <h2 className="tracking-widest text-xs title-font font-medium text-gray-400 mb-1">
-                    CATEGORY
+                    TEAM MEMBER
                   </h2>
                   <h1 className="title-font text-lg font-medium text-gray-900 mb-3">
                     Saransh Chawla
@@ -61,7 +61,7 @@ const TeamMembers = () => {
                 ></img>
                 <div className="p-6">
                   <h2 className="tracking-widest text-xs title-font font-medium text-gray-400 mb-1">
-                    CATEGORY
+                    TEAM MEMBER
                   </h2>
                   <h1 className="title-font text-lg font-medium text-gray-900 mb-3">
                     Anmol Ghai
@@ -88,7 +88,7 @@ const TeamMembers = () => {
                 ></img>
                 <div className="p-6">
                   <h2 className="tracking-widest text-xs title-font font-medium text-gray-400 mb-1">
-                    CATEGORY
+                    TEAM MEMBER
                   </h2>
                   <h1 className="title-font text-lg font-medium text-gray-900 mb-3">
                     Harish Shivhare
@@ -109,7 +109,7 @@ const TeamMembers = () => {
                 ></img>
                 <div className="p-6">
                   <h2 className="tracking-widest text-xs title-font font-medium text-gray-400 mb-1">
-                    CATEGORY
+                    TEAM MEMBER
                   </h2>
                   <h1 className="title-font text-lg font-medium text-gray-900 mb-3">
                     Ananya Mathur
@@ -130,7 +130,7 @@ const TeamMembers = () => {
                 ></img>
                 <div className="p-6">
                   <h2 className="tracking-widest text-xs title-font font-medium text-gray-400 mb-1">
-                    CATEGORY
+                    TEAM MEMBER
                   </h2>
                   <h1 className="title-font text-lg font-medium text-gray-900 mb-3">
                     Arnav William
