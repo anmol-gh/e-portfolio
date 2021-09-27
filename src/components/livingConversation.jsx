@@ -1,4 +1,4 @@
-const Data = () => {
+const LivCon = () => {
   return (
     <section className="text-gray-600 body-font overflow-hidden">
       <div className="container px-5 py-24 mx-auto">
@@ -23,11 +23,14 @@ const Data = () => {
                 </a>
               </span>
               . We had an Introduction and a Briefing session by ma'am, and the
-              students introduced themselves. It was a really fun session.
+              students introduced themselves. It was a really fun session.We
+              were assigned to make a pictorial introduction of ourselves, I
+              made mine using Figma, it was a really fun exercise you can see my
+              introduction in the link below.
             </p>
             <div className="flex items-center flex-wrap pb-4 mb-4 border-b-2 border-green-300 mt-auto w-full">
-              <a className="cursor-not-allowed text-yellow-500 inline-flex items-center">
-                Media
+              <a href="/liv-con-week-1"className="text-yellow-500 inline-flex items-center">
+                More
                 <svg
                   className="w-4 h-4 ml-2"
                   viewBox="0 0 24 24"
@@ -54,7 +57,7 @@ const Data = () => {
               Week 2
             </h2>
             <p className="text-pink-700 leading-relaxed mb-8">
-              In the second week, ma'am 
+              In the second week, we were assigned to create a group collage with a slogan which reflects the essence and core of the team.
             </p>
             <div className="flex items-center flex-wrap pb-4 mb-4 border-b-2 border-green-300 mt-auto w-full">
               <a
@@ -83,7 +86,7 @@ const Data = () => {
         </div>
       </div>
       <section className="text-gray-600 body-font overflow-hidden">
-        <div className="container px-5 py-24 mx-auto">
+        <div className="container px-5 py-16 mx-auto">
           <div className="flex flex-wrap -m-12">
             <div className="p-12 md:w-1/2 flex flex-col items-start">
               <span className="text-red-400 inline-block py-1 px-2 rounded bg-yellow-50  text-xs font-medium tracking-widest">
@@ -157,7 +160,7 @@ const Data = () => {
         </div>
       </section>
       <section className="text-gray-600 body-font overflow-hidden">
-        <div className="container px-5 py-24 mx-auto">
+        <div className="container px-5 py-16 mx-auto">
           <div className="flex flex-wrap -m-12">
             <div className="p-12 md:w-1/2 flex flex-col items-start">
               <span className="text-red-400 inline-block py-1 px-2 rounded bg-yellow-50  text-xs font-medium tracking-widest">
@@ -234,4 +237,4 @@ const Data = () => {
   );
 };
 
-export default Data;
+export default LivCon;

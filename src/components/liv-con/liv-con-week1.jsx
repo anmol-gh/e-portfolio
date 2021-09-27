@@ -1,13 +1,14 @@
-import GroupCollage from "../static/GroupCollage.png"
-const LivConWeek2 = () => {
-    return (
-        <section className=" text-gray-600 body-font">
+import info from "../static/Information.jpg";
+
+const LivConWeek1 = () => {
+  return (
+    <section className=" text-gray-600 body-font">
       <div className="container px-5 py-24 mx-auto flex flex-wrap">
         <div className="lg:w-1/2 w-full mb-10 lg:mb-0 rounded-lg overflow-hidden">
           <img
             alt="intro-picture"
             className=" rounded-3xl border-purple-500 border-4 object-cover object-center h-full w-full"
-            src={GroupCollage}
+            src={info}
           ></img>
         </div>
         <div className="flex flex-col flex-wrap lg:py-6 -mb-10 lg:w-1/2 lg:pl-12 lg:text-left text-center">
@@ -128,6 +129,7 @@ const LivConWeek2 = () => {
         </div>
       </div>
     </section>
-    );
-}
-export default LivConWeek2;
+  );
+};
+
+export default LivConWeek1;
