@@ -1,7 +1,8 @@
+import anmol from "./static/anmol 1.png";
 const Navbar = () => {
   return (
-    <header className="text-gray-600 body-font">
-      <div className="w-full bg-purple-50 container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
+    <header className="w-full text-gray-600 body-font">
+      <div className="bg-purple-50 flex flex-wrap p-5 flex-col md:flex-row items-center">
         <a
           className="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0"
           href="/"
@@ -18,6 +19,7 @@ const Navbar = () => {
           >
             <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path>
           </svg> */}
+          <img src={anmol} className="h-8"></img>
           <span className="ml-3 text-xl">Anmol's E-portfolio</span>
         </a>
         <nav className="md:ml-auto flex flex-wrap items-center text-base justify-center">
