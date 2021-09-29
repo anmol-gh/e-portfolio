@@ -5,7 +5,7 @@ const LivCon = () => {
         <div className="flex flex-wrap -m-12">
           <div className="p-12 md:w-1/2 flex flex-col items-start ">
             <span className="text-red-400 inline-block py-1 px-2 rounded bg-yellow-50  text-xs font-medium tracking-widest">
-              Introduction
+              Introduction, Course Overview
             </span>
             <h2 className="text-blue-400 sm:text-3xl text-2xl title-font font-medium text-gray-900 mt-4 mb-4">
               Week 1
@@ -51,7 +51,7 @@ const LivCon = () => {
           </div>
           <div className="p-12 md:w-1/2 flex flex-col items-start">
             <span className="text-red-400 inline-block py-1 px-2 rounded bg-yellow-50  text-xs font-medium tracking-widest">
-              Assignment, Group Formation
+              Basics of Communication
             </span>
             <h2 className="text-blue-400 sm:text-3xl text-2xl title-font font-medium mt-4 mb-4">
               Week 2
@@ -64,7 +64,7 @@ const LivCon = () => {
                 className=" text-yellow-500 inline-flex items-center"
                 href="liv-con-week-2"
               >
-                Media
+                More
                 <svg
                   className="w-4 h-4 ml-2"
                   viewBox="0 0 24 24"
@@ -90,7 +90,7 @@ const LivCon = () => {
           <div className="flex flex-wrap -m-12">
             <div className="p-12 md:w-1/2 flex flex-col items-start">
               <span className="text-red-400 inline-block py-1 px-2 rounded bg-yellow-50  text-xs font-medium tracking-widest">
-                Introduction
+              Role of Verbal and Non-verbal Communication
               </span>
               <h2 className="sm:text-3xl text-2xl title-font font-medium text-blue-400 mt-4 mb-4">
                 Week 3
@@ -103,7 +103,7 @@ const LivCon = () => {
               </p>
               <div className="flex items-center flex-wrap pb-4 mb-4 border-b-2 border-green-300 mt-auto w-full">
                 <a className="text-yellow-500 inline-flex items-center">
-                  Media
+                  More
                   <svg
                     className="w-4 h-4 ml-2"
                     viewBox="0 0 24 24"
@@ -137,7 +137,7 @@ const LivCon = () => {
               </p>
               <div className="flex items-center flex-wrap pb-4 mb-4 border-b-2 border-green-300 mt-auto w-full">
                 <a className="text-yellow-500 inline-flex items-center">
-                  Media
+                  More
                   <svg
                     className="w-4 h-4 ml-2"
                     viewBox="0 0 24 24"
@@ -177,7 +177,7 @@ const LivCon = () => {
               </p>
               <div className="flex items-center flex-wrap pb-4 mb-4 border-b-2 border-green-300 mt-auto w-full">
                 <a className="text-yellow-500 inline-flex items-center">
-                  Media
+                  More
                   <svg
                     className="w-4 h-4 ml-2"
                     viewBox="0 0 24 24"
@@ -211,7 +211,7 @@ const LivCon = () => {
               </p>
               <div className="flex items-center flex-wrap pb-4 mb-4 border-b-2 border-green-300 mt-auto w-full">
                 <a className="text-yellow-500 inline-flex items-center">
-                  Media
+                  More
                   <svg
                     className="w-4 h-4 ml-2"
                     viewBox="0 0 24 24"

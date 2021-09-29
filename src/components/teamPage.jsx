@@ -3,7 +3,7 @@ import khushi from "./static/khushi.png";
 import ananya from "./static/ananya.png";
 import arnav from "./static/arnav.png";
 import saransh from "./static/saransh.png";
-import harish from "./static/harish.png";
+import harsh from "./static/harish.png";
 const TeamMembers = () => {
   return (
     <div>
@@ -25,8 +25,8 @@ const TeamMembers = () => {
                     Khushi Srivastava
                   </h1>
                   <p className="leading-relaxed mb-3">
-                    Photo booth fam kinfolk cold-pressed sriracha leggings
-                    jianbing microdosing tousled waistcoat.
+                    Khushi hails from Lucknow, she did her schooling from City
+                    Montessori School, Lucknow.
                   </p>
                 </div>
               </div>
@@ -43,11 +43,11 @@ const TeamMembers = () => {
                     TEAM MEMBER
                   </h2>
                   <h1 className="title-font text-lg font-medium text-gray-900 mb-3">
-                    Saransh Chawla
+                    Saransh Rajesh Chawla
                   </h1>
                   <p className="leading-relaxed mb-3">
-                    Photo booth fam kinfolk cold-pressed sriracha leggings
-                    jianbing microdosing tousled waistcoat.
+                    Saransh hails from Mumbai, he did his schooling from Leaders
+                    Private School, Dubai.
                   </p>
                 </div>
               </div>
@@ -67,8 +67,8 @@ const TeamMembers = () => {
                     Anmol Ghai
                   </h1>
                   <p className="leading-relaxed mb-3">
-                    Photo booth fam kinfolk cold-pressed sriracha leggings
-                    jianbing microdosing tousled waistcoat.
+                    Anmol hails from Dehradun, and I did my schooling from
+                    Pinewood School.
                   </p>
                 </div>
               </div>
@@ -83,19 +83,18 @@ const TeamMembers = () => {
               <div className="h-full border-2 border-gray-300 border-opacity-60 rounded-lg overflow-hidden">
                 <img
                   className="lg:h-48 md:h-36 w-full object-cover object-center"
-                  src={harish}
-                  alt="harish's image"
+                  src={harsh}
+                  alt="harsh's image"
                 ></img>
                 <div className="p-6">
                   <h2 className="tracking-widest text-xs title-font font-medium text-gray-400 mb-1">
                     TEAM MEMBER
                   </h2>
                   <h1 className="title-font text-lg font-medium text-gray-900 mb-3">
-                    Harish Shivhare
+                    Harsh Shivhare
                   </h1>
                   <p className="leading-relaxed mb-3">
-                    Photo booth fam kinfolk cold-pressed sriracha leggings
-                    jianbing microdosing tousled waistcoat.
+                    Harsh hails from Mumbai
                   </p>
                 </div>
               </div>
@@ -114,10 +113,7 @@ const TeamMembers = () => {
                   <h1 className="title-font text-lg font-medium text-gray-900 mb-3">
                     Ananya Mathur
                   </h1>
-                  <p className="leading-relaxed mb-3">
-                    Photo booth fam kinfolk cold-pressed sriracha leggings
-                    jianbing microdosing tousled waistcoat.
-                  </p>
+                  <p className="leading-relaxed mb-3">Ananya hails from NCR</p>
                 </div>
               </div>
             </div>
@@ -136,8 +132,7 @@ const TeamMembers = () => {
                     Arnav William
                   </h1>
                   <p className="leading-relaxed mb-3">
-                    Photo booth fam kinfolk cold-pressed sriracha leggings
-                    jianbing microdosing tousled waistcoat.
+                    Arnav hails from Dehradun.
                   </p>
                 </div>
               </div>

@@ -27,7 +27,7 @@ const DataLhtl = () => {
             </p>
             <div className="flex items-center flex-wrap pb-4 mb-4 border-b-2 border-green-300 mt-auto w-full">
               <a className="cursor-not-allowed text-yellow-500 inline-flex items-center">
-                Media
+                More
                 <svg
                   className="w-4 h-4 ml-2"
                   viewBox="0 0 24 24"
@@ -65,7 +65,7 @@ const DataLhtl = () => {
                 href="https://imgur.com/jXvL35U"
                 target="_blank"
               >
-                Media
+                More
                 <svg
                   className="w-4 h-4 ml-2"
                   viewBox="0 0 24 24"
@@ -104,7 +104,7 @@ const DataLhtl = () => {
               </p>
               <div className="flex items-center flex-wrap pb-4 mb-4 border-b-2 border-green-300 mt-auto w-full">
                 <a className="text-yellow-500 inline-flex items-center">
-                  Media
+                  More
                   <svg
                     className="w-4 h-4 ml-2"
                     viewBox="0 0 24 24"
@@ -138,7 +138,7 @@ const DataLhtl = () => {
               </p>
               <div className="flex items-center flex-wrap pb-4 mb-4 border-b-2 border-green-300 mt-auto w-full">
                 <a className="text-yellow-500 inline-flex items-center">
-                  Media
+                  More
                   <svg
                     className="w-4 h-4 ml-2"
                     viewBox="0 0 24 24"
@@ -178,7 +178,7 @@ const DataLhtl = () => {
               </p>
               <div className="flex items-center flex-wrap pb-4 mb-4 border-b-2 border-green-300 mt-auto w-full">
                 <a className="text-yellow-500 inline-flex items-center">
-                  Media
+                  More
                   <svg
                     className="w-4 h-4 ml-2"
                     viewBox="0 0 24 24"
@@ -212,7 +212,7 @@ const DataLhtl = () => {
               </p>
               <div className="flex items-center flex-wrap pb-4 mb-4 border-b-2 border-green-300 mt-auto w-full">
                 <a className="text-yellow-500 inline-flex items-center">
-                  Media
+                  More
                   <svg
                     className="w-4 h-4 ml-2"
                     viewBox="0 0 24 24"
