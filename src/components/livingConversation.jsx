@@ -29,7 +29,10 @@ const LivCon = () => {
               introduction in the link below.
             </p>
             <div className="flex items-center flex-wrap pb-4 mb-4 border-b-2 border-green-300 mt-auto w-full">
-              <a href="/liv-con-week-1"className="text-yellow-500 inline-flex items-center">
+              <a
+                href="/liv-con-week-1"
+                className="text-yellow-500 inline-flex items-center"
+              >
                 More
                 <svg
                   className="w-4 h-4 ml-2"
@@ -57,7 +60,8 @@ const LivCon = () => {
               Week 2
             </h2>
             <p className="text-pink-700 leading-relaxed mb-8">
-              In the second week, we were assigned to create a group collage with a slogan which reflects the essence and core of the team.
+              In the second week, we were assigned to create a group collage
+              with a slogan which reflects the essence and core of the team.
             </p>
             <div className="flex items-center flex-wrap pb-4 mb-4 border-b-2 border-green-300 mt-auto w-full">
               <a
@@ -90,7 +94,7 @@ const LivCon = () => {
           <div className="flex flex-wrap -m-12">
             <div className="p-12 md:w-1/2 flex flex-col items-start">
               <span className="text-red-400 inline-block py-1 px-2 rounded bg-yellow-50  text-xs font-medium tracking-widest">
-              Role of Verbal and Non-verbal Communication
+                Role of Verbal and Non-verbal Communication
               </span>
               <h2 className="sm:text-3xl text-2xl title-font font-medium text-blue-400 mt-4 mb-4">
                 Week 3
