@@ -132,7 +132,7 @@ const TeamMembers = () => {
                     Arnav William
                   </h1>
                   <p className="leading-relaxed mb-3">
-                    Arnav hails from Dehradun.
+                    Arnav hails from Dehradun. He completed his high school from St. Joseph Academy.
                   </p>
                 </div>
               </div>

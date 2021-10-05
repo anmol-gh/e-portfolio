@@ -10,6 +10,7 @@ import Footer from "./components/footer";
 
 import LivConWeek1 from "./components/liv-con/liv-con-week1";
 import LivConWeek2 from "./components/liv-con/liv-con-week2";
+import LivConWeek3 from "./components/liv-con/liv-con-week3";
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 function App() {
   return (
@@ -43,6 +44,11 @@ function App() {
         <Route exact path="/liv-con-week-2">
           <Navbar />
           <LivConWeek2 />
+          <Footer />
+        </Route>
+        <Route exact path="/liv-con-week-3">
+          <Navbar />
+          <LivConWeek3 />
           <Footer />
         </Route>
       </Switch>

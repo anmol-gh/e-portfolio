@@ -48,13 +48,10 @@ const LivCon = () => {
                 </svg>
               </a>
             </div>
-            <a className="inline-flex items-center">
-              {/* <img alt="blog" src="https://dummyimage.com/104x104" className="w-12 h-12 rounded-full flex-shrink-0 object-cover object-center"> */}
-            </a>
           </div>
           <div className="p-12 md:w-1/2 flex flex-col items-start">
             <span className="text-red-400 inline-block py-1 px-2 rounded bg-yellow-50  text-xs font-medium tracking-widest">
-              Basics of Communication
+              Basics of Communication, Group Formation
             </span>
             <h2 className="text-blue-400 sm:text-3xl text-2xl title-font font-medium mt-4 mb-4">
               Week 2
@@ -94,19 +91,16 @@ const LivCon = () => {
           <div className="flex flex-wrap -m-12">
             <div className="p-12 md:w-1/2 flex flex-col items-start">
               <span className="text-red-400 inline-block py-1 px-2 rounded bg-yellow-50  text-xs font-medium tracking-widest">
-                Role of Verbal and Non-verbal Communication
+                Role of Verbal and Non-verbal Communication, Mini Film Festival
               </span>
               <h2 className="sm:text-3xl text-2xl title-font font-medium text-blue-400 mt-4 mb-4">
                 Week 3
               </h2>
               <p className="text-pink-700 leading-relaxed mb-8">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Possimus eius corporis perspiciatis mollitia ab tempore dolor,
-                nam omnis vitae qui temporibus ratione nostrum similique unde
-                veniam id quia, ex explicabo!
+                We were shown a video of Mr. Bean writing an examination paper, it was very funny and we also learnt quite a lot of things from the video. We were also told about the Mini Film Festival in this session. I watched the movie <span className="font-semibold">Shawshank Redemption</span> as a part of Mini Film Festival.
               </p>
               <div className="flex items-center flex-wrap pb-4 mb-4 border-b-2 border-green-300 mt-auto w-full">
-                <a className="text-yellow-500 inline-flex items-center">
+                <a className="text-yellow-500 inline-flex items-center" href="/liv-con-week-3">
                   More
                   <svg
                     className="w-4 h-4 ml-2"
@@ -163,7 +157,7 @@ const LivCon = () => {
           </div>
         </div>
       </section>
-      <section className="text-gray-600 body-font overflow-hidden">
+      <section className="hidden text-gray-600 body-font overflow-hidden">
         <div className="container px-5 py-16 mx-auto">
           <div className="flex flex-wrap -m-12">
             <div className="p-12 md:w-1/2 flex flex-col items-start">
