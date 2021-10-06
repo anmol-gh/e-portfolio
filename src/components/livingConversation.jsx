@@ -128,13 +128,10 @@ const LivCon = () => {
                 Week 4
               </h2>
               <p className="text-pink-700 leading-relaxed mb-8">
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                Explicabo, quae impedit? Ad eos, laborum tenetur ipsam ea error
-                earum illum et expedita cum ratione, deserunt rem, magni
-                laboriosam a repellendus?
+                
               </p>
               <div className="flex items-center flex-wrap pb-4 mb-4 border-b-2 border-green-300 mt-auto w-full">
-                <a className="text-yellow-500 inline-flex items-center">
+                <a className="text-yellow-500 inline-flex items-center" href="/liv-con-week-4">
                   More
                   <svg
                     className="w-4 h-4 ml-2"
