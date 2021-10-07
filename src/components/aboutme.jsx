@@ -15,7 +15,7 @@ const AboutMe = () => {
               lot of things which include Food, Travelling, Music, Debates,
               Discussions, Cultures and so on. This website is my E-portfolio
               for <span className="font-semibold">'Living Conversation'</span>
-              and
+              and{" "}
               <span className="font-semibold">'Learning how to Learn'.</span>
             </p>
             <div className="flex justify-center">

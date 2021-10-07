@@ -35,14 +35,18 @@ const LivConWeek2 = () => {
                 About us
               </h2>
               <p className="leading-relaxed text-base">
-                We are team TechStars and our quote is{" "}
+                We are team TechStars and our quote is {" "}
                 <span className="font-semibold">
                   We fall, We break, We fail, But then, We rise, We heal, We
                   overcome.
                 </span>
                 <br></br>
                 Our team consists of 06 members. You can know more about them{" "}
-                <a href="/team" className="hover:underline" target="_blank">
+                <a
+                  href="/team"
+                  className="hover:underline font-semibold"
+                  target="_blank"
+                >
                   here
                 </a>
               </p>
