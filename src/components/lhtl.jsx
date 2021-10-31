@@ -26,7 +26,7 @@ const DataLhtl = () => {
               students introduced themselves. It was a really fun session.
             </p>
             <div className="flex items-center flex-wrap pb-4 mb-4 border-b-2 border-green-300 mt-auto w-full">
-              <a className="cursor-not-allowed text-yellow-500 inline-flex items-center">
+              <a className="cursor-pointer text-yellow-500 inline-flex items-center" href="/lhtl1">
                 More
                 <svg
                   className="w-4 h-4 ml-2"
@@ -57,7 +57,13 @@ const DataLhtl = () => {
               It was our second class of LHTL, I was very excited about it, the
               session started with a famous song by Lucky Ali. We were told
               about the group Projects, I formed a Team consisting of 6 members
-              for the group project. You can check more about my team members <span><a className="text-red-800 underline"href="/team"> here</a></span>
+              for the group project. You can check more about my team members{" "}
+              <span>
+                <a className="text-red-800 underline" href="/team">
+                  {" "}
+                  here
+                </a>
+              </span>
             </p>
             <div className="flex items-center flex-wrap pb-4 mb-4 border-b-2 border-green-300 mt-auto w-full">
               <a

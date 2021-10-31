@@ -13,7 +13,7 @@ const AboutMe = () => {
             <p className="mb-8 leading-relaxed">
               I am a first year CSE student, studying at UPES. I like quite a
               lot of things which include Food, Travelling, Music, Debates,
-              Discussions, Cultures and so on. This website is my E-portfolio
+              Discussions, Cultures and so on. This website is my E-portfolio.
               for <span className="font-semibold">'Living Conversation'</span>
               and{" "}
               <span className="font-semibold">'Learning how to Learn'.</span>
@@ -46,4 +46,4 @@ const AboutMe = () => {
   );
 };
 
-export default AboutMe;
+export default AboutMe; 
