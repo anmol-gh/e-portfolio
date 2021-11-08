@@ -58,10 +58,9 @@ function App() {
           <Footer />
         </Route>
         <Route exact path="/lhtl-week1">
-          <Navbar>
-            <LhtlWeek1/>
-            <Footer/>
-          </Navbar>
+          <Navbar />
+          <LhtlWeek1 />
+          <Footer />
         </Route>
       </Switch>
     </Router>

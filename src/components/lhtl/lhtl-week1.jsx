@@ -1,4 +1,4 @@
-import Navbar from "../navbar";
+import lhtlWeek1 from "../static/lhtlWeek1.jpg";
 const LhtlWeek1 = () => {
   return (
     <section class="text-gray-600 body-font">
@@ -7,10 +7,8 @@ const LhtlWeek1 = () => {
           <img
             alt="feature"
             class="object-cover object-center h-full w-full"
-            src="https://dummyimage.com/460x500"
-          >
-            {" "}
-          </img>
+            src={lhtlWeek1}
+          ></img>
         </div>
         <div class="flex flex-col flex-wrap lg:py-6 -mb-10 lg:w-1/2 lg:pl-12 lg:text-left text-center">
           <div class="flex flex-col mb-10 lg:items-start items-center">
@@ -29,26 +27,13 @@ const LhtlWeek1 = () => {
             </div>
             <div class="flex-grow">
               <h2 class="text-gray-900 text-lg title-font font-medium mb-3">
-                Shooting Stars
+                What does Learning as a skill literally means?
               </h2>
               <p class="leading-relaxed text-base">
-                Blue bottle crucifix vinyl post-ironic four dollar toast vegan
-                taxidermy. Gastropub indxgo juice poutine.
+                Learning means being open to new experiences and ideas, and
+                allowing ourselves to grow from what we encounter in the world.
+                Learning is not 'STUDYING' but 'ABSORBING EXPERIENCE OF LIFE.'
               </p>
-              <a class="mt-3 text-indigo-500 inline-flex items-center">
-                Learn More
-                <svg
-                  fill="none"
-                  stroke="currentColor"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  stroke-width="2"
-                  class="w-4 h-4 ml-2"
-                  viewBox="0 0 24 24"
-                >
-                  <path d="M5 12h14M12 5l7 7-7 7"></path>
-                </svg>
-              </a>
             </div>
           </div>
           <div class="flex flex-col mb-10 lg:items-start items-center">
@@ -69,26 +54,13 @@ const LhtlWeek1 = () => {
             </div>
             <div class="flex-grow">
               <h2 class="text-gray-900 text-lg title-font font-medium mb-3">
-                The Catalyzer
+                What do we mean by UNLEARNING?
               </h2>
               <p class="leading-relaxed text-base">
-                Blue bottle crucifix vinyl post-ironic four dollar toast vegan
-                taxidermy. Gastropub indxgo juice poutine.
+                Unlearning is the process of discarding something from your
+                memory. When you unlearn something you forget it, put it aside,
+                and you lose knowledge of it.
               </p>
-              <a class="mt-3 text-indigo-500 inline-flex items-center">
-                Learn More
-                <svg
-                  fill="none"
-                  stroke="currentColor"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  stroke-width="2"
-                  class="w-4 h-4 ml-2"
-                  viewBox="0 0 24 24"
-                >
-                  <path d="M5 12h14M12 5l7 7-7 7"></path>
-                </svg>
-              </a>
             </div>
           </div>
           <div class="flex flex-col mb-10 lg:items-start items-center">
@@ -108,26 +80,12 @@ const LhtlWeek1 = () => {
             </div>
             <div class="flex-grow">
               <h2 class="text-gray-900 text-lg title-font font-medium mb-3">
-                Neptune
+                But why UNLEARN?
               </h2>
               <p class="leading-relaxed text-base">
-                Blue bottle crucifix vinyl post-ironic four dollar toast vegan
-                taxidermy. Gastropub indxgo juice poutine.
+                New perspective New vision To be more receptive Get away with
+                old habits Make way for new ideas
               </p>
-              <a class="mt-3 text-indigo-500 inline-flex items-center">
-                Learn More
-                <svg
-                  fill="none"
-                  stroke="currentColor"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  stroke-width="2"
-                  class="w-4 h-4 ml-2"
-                  viewBox="0 0 24 24"
-                >
-                  <path d="M5 12h14M12 5l7 7-7 7"></path>
-                </svg>
-              </a>
             </div>
           </div>
         </div>

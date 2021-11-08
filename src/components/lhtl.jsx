@@ -23,10 +23,10 @@ const DataLhtl = () => {
                 </a>
               </span>
               . We had an Introduction and a Briefing session by ma'am, and the
-              students introduced themselves. It was a really fun session.
+              students introduced themselves. It was a really fun session. We were also taught about unlearning in this session
             </p>
             <div className="flex items-center flex-wrap pb-4 mb-4 border-b-2 border-green-300 mt-auto w-full">
-              <a className="cursor-pointer text-yellow-500 inline-flex items-center" href="/lhtl1">
+              <a className="cursor-pointer text-yellow-500 inline-flex items-center" href="/lhtl-week1">
                 More
                 <svg
                   className="w-4 h-4 ml-2"
@@ -68,7 +68,7 @@ const DataLhtl = () => {
             <div className="flex items-center flex-wrap pb-4 mb-4 border-b-2 border-green-300 mt-auto w-full">
               <a
                 className="text-yellow-500 inline-flex items-center"
-                href="https://imgur.com/jXvL35U"
+                href="/lhtl-week2"
                 target="_blank"
               >
                 More
@@ -109,7 +109,7 @@ const DataLhtl = () => {
                 veniam id quia, ex explicabo!
               </p>
               <div className="flex items-center flex-wrap pb-4 mb-4 border-b-2 border-green-300 mt-auto w-full">
-                <a className="text-yellow-500 inline-flex items-center">
+                <a className="text-yellow-500 inline-flex items-center" href="/lhtl-week3">
                   More
                   <svg
                     className="w-4 h-4 ml-2"
