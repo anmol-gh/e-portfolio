@@ -1,7 +1,23 @@
 const DataLhtl = () => {
   return (
     <section className="text-gray-600 body-font overflow-hidden">
-      <div className="mt-12 container px-5 py-24 mx-auto">
+      <section className="text-gray-600 body-font">
+        <div className="container px-5 py-16 mx-auto">
+          <div className="lg:w-2/3 flex flex-col sm:flex-row sm:items-center items-start mx-auto">
+            <h1 className="flex-grow sm:pr-16 text-2xl font-medium title-font text-gray-900">
+              A fortnightly event or publication happens or appears once every
+              two weeks.
+            </h1>
+            <a
+              href="/lhtl-fortnightly"
+              className="text-justify w-64 transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110 inline-flex text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg"
+            >
+              Fortnightly Activites
+            </a>
+          </div>
+        </div>
+      </section>
+      <div className="mt-12 container px-5 py-2 mx-auto">
         <div className="flex flex-wrap -m-12">
           <div className="p-12 md:w-1/2 flex flex-col items-start ">
             <span className="text-red-400 inline-block py-1 px-2 rounded bg-yellow-50  text-xs font-medium tracking-widest">
@@ -23,10 +39,14 @@ const DataLhtl = () => {
                 </a>
               </span>
               . We had an Introduction and a Briefing session by ma'am, and the
-              students introduced themselves. It was a really fun session. We were also taught about unlearning in this session
+              students introduced themselves. It was a really fun session. We
+              were also taught about unlearning in this session
             </p>
             <div className="flex items-center flex-wrap pb-4 mb-4 border-b-2 border-green-300 mt-auto w-full">
-              <a className="cursor-pointer text-yellow-500 inline-flex items-center" href="/lhtl-week1">
+              <a
+                className="cursor-pointer text-yellow-500 inline-flex items-center"
+                href="/lhtl-week1"
+              >
                 More
                 <svg
                   className="w-4 h-4 ml-2"
@@ -57,7 +77,8 @@ const DataLhtl = () => {
               It was our second class of LHTL, I was very excited about it, the
               session started with a famous song by Lucky Ali. We were told
               about the group Projects, I formed a Team consisting of 6 members
-              for the group project. You can check more about my team members{" "}
+              for the group project. You can check more about my team members.
+              We were also taught about the benefits of Inquiry based learning.
               <span>
                 <a className="text-red-800 underline" href="/team">
                   {" "}
@@ -109,7 +130,10 @@ const DataLhtl = () => {
                 veniam id quia, ex explicabo!
               </p>
               <div className="flex items-center flex-wrap pb-4 mb-4 border-b-2 border-green-300 mt-auto w-full">
-                <a className="text-yellow-500 inline-flex items-center" href="/lhtl-week3">
+                <a
+                  className="text-yellow-500 inline-flex items-center"
+                  href="/lhtl-week3"
+                >
                   More
                   <svg
                     className="w-4 h-4 ml-2"

@@ -5,7 +5,12 @@ import LivCon from "./components/livingConversation";
 import LHTL from "./components/lhtl";
 import TeamMembers from "./components/teamPage";
 import Footer from "./components/footer";
+
+//Importing Weeks of LHTL
+
 import LhtlWeek1 from "./components/lhtl/lhtl-week1";
+import LhtlWeek2 from "./components/lhtl/lhtl-week2";
+
 //Importing Weeks of Living Conversation
 
 import LivConWeek1 from "./components/liv-con/liv-con-week1";
@@ -18,6 +23,11 @@ function App() {
     <Router>
       <Switch>
         <Route exact path="/team">
+          <Navbar />
+          <TeamMembers />
+          <Footer />
+        </Route>
+        <Route exact path="/lhtl-fortnightly">
           <Navbar />
           <TeamMembers />
           <Footer />
@@ -60,6 +70,11 @@ function App() {
         <Route exact path="/lhtl-week1">
           <Navbar />
           <LhtlWeek1 />
+          <Footer />
+        </Route>
+        <Route exact path="/lhtl-week2">
+          <Navbar />
+          <LhtlWeek2 />
           <Footer />
         </Route>
       </Switch>

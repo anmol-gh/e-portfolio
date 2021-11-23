@@ -1,6 +1,74 @@
 const LivCon = () => {
   return (
     <section className="text-gray-600 body-font overflow-hidden">
+      <section className="text-gray-600 body-font">
+        <div className="container px-5 py-16 mx-auto">
+          <div className="lg:w-2/3 flex flex-col sm:flex-row sm:items-center items-start mx-auto">
+            <h1 className="flex-grow sm:pr-16 text-2xl font-medium title-font text-gray-900"></h1>
+            <a
+              className="text-center transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110 inline-flex text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg"
+              href="/living-conversation-project"
+            >
+              Group Project
+            </a>
+          </div>
+        </div>
+      </section>
+      <section className="text-gray-600 body-font">
+        <div className="container px-5 py-16 mx-auto">
+          <div className="lg:w-2/3 flex flex-col sm:flex-row sm:items-center items-start mx-auto">
+            <h1 className="flex-grow sm:pr-16 text-2xl font-medium title-font text-gray-900">
+              Introducing Coursera Course to audit{" "}
+              <span>
+                <a
+                  className="underline hover:bg-blue-200"
+                  target="_blanck"
+                  href="https://www.coursera.org/learn/speaking-skills-for-university-success#syllabus"
+                >
+                  Speaking Skills for University Success{" "}
+                </a>
+              </span>
+              by University of California, Irvine
+            </h1>
+            <a
+              className="text-justify transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110 inline-flex text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg"
+              href="/living-conversation-project"
+            >
+              Coursera
+            </a>
+          </div>
+        </div>
+      </section>
+      <section className="text-gray-600 body-font">
+        <div className="container px-5 py-16 mx-auto">
+          <div className="lg:w-2/3 flex flex-col sm:flex-row sm:items-center items-start mx-auto">
+            <h1 className="flex-grow sm:pr-16 text-2xl font-medium title-font text-gray-900">
+              Guest Talks taken by Tracy Irby and Dr. Alberto "Mo" Morales
+            </h1>
+            <a
+              className="text-justify transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110 inline-flex text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg"
+              href="/living-conversation-project"
+            >
+              Guest Talk
+            </a>
+          </div>
+        </div>
+      </section>
+      <section className="text-gray-600 body-font">
+        <div className="container px-5 py-16 mx-auto">
+          <div className="lg:w-2/3 flex flex-col sm:flex-row sm:items-center items-start mx-auto">
+            <h1 className="flex-grow sm:pr-16 text-2xl font-medium title-font text-gray-900">
+              Guest Talks taken by Tracy Irby and Dr. Alberto "Mo" Morales
+            </h1>
+            <a
+              className="text-justify transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110 inline-flex text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg"
+              href="/living-conversation-project"
+            >
+              Mini Film Festival
+            </a>
+          </div>
+        </div>
+      </section>
       <div className="container px-5 py-24 mx-auto">
         <div className="flex flex-wrap -m-12">
           <div className="p-12 md:w-1/2 flex flex-col items-start ">
@@ -97,10 +165,18 @@ const LivCon = () => {
                 Week 3
               </h2>
               <p className="text-pink-700 leading-relaxed mb-8">
-                We were shown a video of Mr. Bean writing an examination paper, it was very funny and we also learnt quite a lot of things from the video. We were also told about the Mini Film Festival in this session. I watched the movie <span className="font-semibold">Shawshank Redemption</span> as a part of Mini Film Festival.
+                We were shown a video of Mr. Bean writing an examination paper,
+                it was very funny and we also learnt quite a lot of things from
+                the video. We were also told about the Mini Film Festival in
+                this session. I watched the movie{" "}
+                <span className="font-semibold">Shawshank Redemption</span> as a
+                part of Mini Film Festival.
               </p>
               <div className="flex items-center flex-wrap pb-4 mb-4 border-b-2 border-green-300 mt-auto w-full">
-                <a className="text-yellow-500 inline-flex items-center" href="/liv-con-week-3">
+                <a
+                  className="text-yellow-500 inline-flex items-center"
+                  href="/liv-con-week-3"
+                >
                   More
                   <svg
                     className="w-4 h-4 ml-2"
@@ -127,11 +203,12 @@ const LivCon = () => {
               <h2 className="sm:text-3xl text-2xl title-font font-medium text-blue-400 mt-4 mb-4">
                 Week 4
               </h2>
-              <p className="text-pink-700 leading-relaxed mb-8">
-                
-              </p>
+              <p className="text-pink-700 leading-relaxed mb-8"></p>
               <div className="flex items-center flex-wrap pb-4 mb-4 border-b-2 border-green-300 mt-auto w-full">
-                <a className="text-yellow-500 inline-flex items-center" href="/liv-con-week-4">
+                <a
+                  className="text-yellow-500 inline-flex items-center"
+                  href="/liv-con-week-4"
+                >
                   More
                   <svg
                     className="w-4 h-4 ml-2"

@@ -6,7 +6,7 @@ const LhtlWeek1 = () => {
         <div class="lg:w-1/2 w-full mb-10 lg:mb-0 rounded-lg overflow-hidden">
           <img
             alt="feature"
-            class="object-cover object-center h-full w-full"
+            class="rounded-3xl border-red-500 border-4 object-cover object-center h-full w-full"
             src={lhtlWeek1}
           ></img>
         </div>
