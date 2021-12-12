@@ -11,7 +11,7 @@ const AboutMe = () => {
               Hey 🙋‍♂️! I am Anmol Ghai
             </h1>
             <p className="mb-8 leading-relaxed">
-              I am a first year CSE student, studying at UPES. I like quite a
+              I am a first year CSE student of Batch B-4, studying at UPES. I like quite a
               lot of things which include Food, Travelling, Music, Debates,
               Discussions, Cultures and so on. This website is my E-portfolio.
               for <span className="font-semibold">'Living Conversation'</span>

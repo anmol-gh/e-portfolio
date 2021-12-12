@@ -10,6 +10,7 @@ import Footer from "./components/footer";
 
 import LhtlWeek1 from "./components/lhtl/lhtl-week1";
 import LhtlWeek2 from "./components/lhtl/lhtl-week2";
+import LhtlWeek3 from "./components/lhtl/lhtl-week3";
 
 //Importing Weeks of Living Conversation
 
@@ -17,11 +18,22 @@ import LivConWeek1 from "./components/liv-con/liv-con-week1";
 import LivConWeek2 from "./components/liv-con/liv-con-week2";
 import LivConWeek3 from "./components/liv-con/liv-con-week3";
 import LivConWeek4 from "./components/liv-con/liv-con-week4";
+import GuestTalks from "./components/lhtl/guest-talks";
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 function App() {
   return (
     <Router>
       <Switch>
+        <Route exact path="/">
+          <Navbar />
+          <AboutMe />
+          <Footer />
+        </Route>
+        <Route exact path="/lhtl">
+          <Navbar />
+          <LHTL />
+          <Footer />
+        </Route>
         <Route exact path="/team">
           <Navbar />
           <TeamMembers />
@@ -32,19 +44,9 @@ function App() {
           <TeamMembers />
           <Footer />
         </Route>
-        <Route exact path="/">
-          <Navbar />
-          <AboutMe />
-          <Footer />
-        </Route>
         <Route exact path="/living-conversation">
           <Navbar />
           <LivCon />
-          <Footer />
-        </Route>
-        <Route exact path="/lhtl">
-          <Navbar />
-          <LHTL />
           <Footer />
         </Route>
         <Route exact path="/liv-con-week-1">
@@ -75,6 +77,21 @@ function App() {
         <Route exact path="/lhtl-week2">
           <Navbar />
           <LhtlWeek2 />
+          <Footer />
+        </Route>
+        <Route exact path="/lhtl-week3">
+          <Navbar />
+          <LhtlWeek3 />
+          <Footer />
+        </Route>
+        <Route exact path="/coursera">
+          <Navbar />
+          <LhtlWeek2 />
+          <Footer />
+        </Route>
+        <Route exact path="/living-conversation/guest-talk">
+          <Navbar />
+          <GuestTalks />
           <Footer />
         </Route>
       </Switch>

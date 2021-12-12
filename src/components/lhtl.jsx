@@ -74,23 +74,32 @@ const DataLhtl = () => {
               Week 2
             </h2>
             <p className="text-pink-700 leading-relaxed mb-8">
-              It was our second class of LHTL, I was very excited about it, the
-              session started with a famous song by Lucky Ali. We were told
-              about the group Projects, I formed a Team consisting of 6 members
-              for the group project. You can check more about my team members.
-              We were also taught about the benefits of Inquiry based learning.
+              In this week a music video was played on the request of Shubhangi
+              Singh the video was
               <span>
-                <a className="text-red-800 underline" href="/team">
+                <a
+                  className="text-red-800 underline"
+                  href="https://youtu.be/FM7MFYoylVs"
+                  target="_blanck"
+                >
                   {" "}
-                  here
+                  Something just like this by chainsmockers
                 </a>
               </span>
+              <span>
+                . I also formed my team for the group project, You can have a
+                look at my team{" "}
+                <a className="text-red-800 underline" href="/team">
+                  here
+                </a>
+              </span>{" "}
+              .We further learned about what is inquiry based learning and other
+              aspects which are revolved around it.
             </p>
             <div className="flex items-center flex-wrap pb-4 mb-4 border-b-2 border-green-300 mt-auto w-full">
               <a
                 className="text-yellow-500 inline-flex items-center"
                 href="/lhtl-week2"
-                target="_blank"
               >
                 More
                 <svg
@@ -118,16 +127,24 @@ const DataLhtl = () => {
           <div className="flex flex-wrap -m-12">
             <div className="p-12 md:w-1/2 flex flex-col items-start">
               <span className="text-red-400 inline-block py-1 px-2 rounded bg-yellow-50  text-xs font-medium tracking-widest">
-                Introduction
+                Critical Thinking
               </span>
               <h2 className="sm:text-3xl text-2xl title-font font-medium text-blue-400 mt-4 mb-4">
                 Week 3
               </h2>
               <p className="text-pink-700 leading-relaxed mb-8">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Possimus eius corporis perspiciatis mollitia ab tempore dolor,
-                nam omnis vitae qui temporibus ratione nostrum similique unde
-                veniam id quia, ex explicabo!
+                In this week the music video{" "}
+                <span>
+                  <a
+                    className="text-red-800 underline"
+                    href="https://youtu.be/XbGs_qK2PQA"
+                  >
+                    Rap God of eminem
+                  </a>
+                </span>{" "}
+                was played on the request of Amil Lal, Garv Gopalia and Yash
+                Kuchal. In this session we discussed about the importance of
+                'Critical Thinking'
               </p>
               <div className="flex items-center flex-wrap pb-4 mb-4 border-b-2 border-green-300 mt-auto w-full">
                 <a

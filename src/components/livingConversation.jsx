@@ -2,9 +2,12 @@ const LivCon = () => {
   return (
     <section className="text-gray-600 body-font overflow-hidden">
       <section className="text-gray-600 body-font">
-        <div className="container px-5 py-16 mx-auto">
+        <div className="container px-5 py-12 mx-auto">
           <div className="lg:w-2/3 flex flex-col sm:flex-row sm:items-center items-start mx-auto">
-            <h1 className="flex-grow sm:pr-16 text-2xl font-medium title-font text-gray-900"></h1>
+            <h1 className="flex-grow sm:pr-16 text-2xl font-medium title-font text-gray-900">
+              Our Group Project on the topic "
+              <span className="underline">Influence the World</span>"
+            </h1>
             <a
               className="text-center transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110 inline-flex text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg"
               href="/living-conversation-project"
@@ -15,7 +18,7 @@ const LivCon = () => {
         </div>
       </section>
       <section className="text-gray-600 body-font">
-        <div className="container px-5 py-16 mx-auto">
+        <div className="container px-5 py-12 mx-auto">
           <div className="lg:w-2/3 flex flex-col sm:flex-row sm:items-center items-start mx-auto">
             <h1 className="flex-grow sm:pr-16 text-2xl font-medium title-font text-gray-900">
               Introducing Coursera Course to audit{" "}
@@ -32,7 +35,7 @@ const LivCon = () => {
             </h1>
             <a
               className="text-justify transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110 inline-flex text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg"
-              href="/living-conversation-project"
+              href="/living-conversation-coursera"
             >
               Coursera
             </a>
@@ -40,14 +43,14 @@ const LivCon = () => {
         </div>
       </section>
       <section className="text-gray-600 body-font">
-        <div className="container px-5 py-16 mx-auto">
+        <div className="container px-5 py-12 mx-auto">
           <div className="lg:w-2/3 flex flex-col sm:flex-row sm:items-center items-start mx-auto">
             <h1 className="flex-grow sm:pr-16 text-2xl font-medium title-font text-gray-900">
               Guest Talks taken by Tracy Irby and Dr. Alberto "Mo" Morales
             </h1>
             <a
               className="text-justify transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110 inline-flex text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg"
-              href="/living-conversation-project"
+              href="/living-conversation/guest-talk"
             >
               Guest Talk
             </a>
@@ -55,10 +58,10 @@ const LivCon = () => {
         </div>
       </section>
       <section className="text-gray-600 body-font">
-        <div className="container px-5 py-16 mx-auto">
+        <div className="container px-5 py-12 mx-auto">
           <div className="lg:w-2/3 flex flex-col sm:flex-row sm:items-center items-start mx-auto">
             <h1 className="flex-grow sm:pr-16 text-2xl font-medium title-font text-gray-900">
-              Guest Talks taken by Tracy Irby and Dr. Alberto "Mo" Morales
+              Watching movies, given in a list and briefing about it.
             </h1>
             <a
               className="text-justify transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110 inline-flex text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg"
@@ -87,7 +90,7 @@ const LivCon = () => {
                   href="https://www.linkedin.com/in/rekha-verma-93a7b435/?originalSubdomain=in"
                   target="_blank"
                 >
-                  Rekha Verma ma'am
+                  Mrs. Rekha Verma ma'am
                 </a>
               </span>
               . We had an Introduction and a Briefing session by ma'am, and the
@@ -155,7 +158,7 @@ const LivCon = () => {
         </div>
       </div>
       <section className="text-gray-600 body-font overflow-hidden">
-        <div className="container px-5 py-16 mx-auto">
+        <div className="container px-5 py-12 mx-auto">
           <div className="flex flex-wrap -m-12">
             <div className="p-12 md:w-1/2 flex flex-col items-start">
               <span className="text-red-400 inline-block py-1 px-2 rounded bg-yellow-50  text-xs font-medium tracking-widest">
