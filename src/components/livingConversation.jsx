@@ -129,7 +129,7 @@ const LivCon = () => {
             </h2>
             <p className="text-pink-700 leading-relaxed mb-8">
               In the second week, we were assigned to create a group collage
-              with a slogan which reflects the essence and core of the team.
+              with a slogan which reflects the essence and core of the team. We were also told about the assessment method, towards the end of the lecture a video related to communication was shown to us.
             </p>
             <div className="flex items-center flex-wrap pb-4 mb-4 border-b-2 border-green-300 mt-auto w-full">
               <a
@@ -151,9 +151,6 @@ const LivCon = () => {
                 </svg>
               </a>
             </div>
-            <a className="inline-flex items-center">
-              {/* <img alt="blog" src="https://dummyimage.com/103x103" className="w-12 h-12 rounded-full flex-shrink-0 object-cover object-center"> */}
-            </a>
           </div>
         </div>
       </div>
@@ -195,18 +192,28 @@ const LivCon = () => {
                   </svg>
                 </a>
               </div>
-              <a className="inline-flex items-center">
-                {/* <img alt="blog" src="https://dummyimage.com/104x104" className="w-12 h-12 rounded-full flex-shrink-0 object-cover object-center"> */}
-              </a>
             </div>
             <div className="p-12 md:w-1/2 flex flex-col items-start">
               <span className="text-red-400 inline-block py-1 px-2 rounded bg-yellow-50  text-xs font-medium tracking-widest">
-                Assignment, Group Formation
+                Importance of Body Language
               </span>
               <h2 className="sm:text-3xl text-2xl title-font font-medium text-blue-400 mt-4 mb-4">
                 Week 4
               </h2>
-              <p className="text-pink-700 leading-relaxed mb-8"></p>
+              <p className="text-pink-700 leading-relaxed mb-8">
+                In this week we were taught about how our body language affects
+                the other person in our conversations, to help us understand
+                this better we were shown this video{" "}
+                <span>
+                  <a
+                    className="text-red-800 underline"
+                    href="https://www.youtube.com/watch?v=Ks-_Mh1QhMc&t=13s"
+                    target="_blank"
+                  >
+                    Your body language may shape who you are | Amy Cuddy
+                  </a>
+                </span>
+              </p>
               <div className="flex items-center flex-wrap pb-4 mb-4 border-b-2 border-green-300 mt-auto w-full">
                 <a
                   className="text-yellow-500 inline-flex items-center"
@@ -227,14 +234,153 @@ const LivCon = () => {
                   </svg>
                 </a>
               </div>
-              <a className="inline-flex items-center">
-                {/* <img alt="blog" src="https://dummyimage.com/103x103" className="w-12 h-12 rounded-full flex-shrink-0 object-cover object-center"> */}
-              </a>
             </div>
           </div>
         </div>
       </section>
-      <section className="hidden text-gray-600 body-font overflow-hidden">
+      <section className=" text-gray-600 body-font overflow-hidden">
+        <div className="container px-5 py-16 mx-auto">
+          <div className="flex flex-wrap -m-12">
+            <div className="p-12 md:w-1/2 flex flex-col items-start">
+              <span className="text-red-400 inline-block py-1 px-2 rounded bg-yellow-50  text-xs font-medium tracking-widest">
+                First Guest Talk
+              </span>
+              <h2 className="sm:text-3xl text-2xl title-font font-medium text-blue-400 mt-4 mb-4">
+                Week 5
+              </h2>
+              <p className="text-pink-700 leading-relaxed mb-8">
+                In week 5 there was guest talk in which Tracy Irby discussed
+                about a lot of things which mostly revolved around
+                communication, she also guided us on how we can be a better
+                communicator, I have made a separate page about Guest Talks, do
+                visit that if you wanna know more :)
+              </p>
+              <div className="flex items-center flex-wrap pb-4 mb-4 border-b-2 border-green-300 mt-auto w-full">
+                <a
+                  href="/living-conversation/guest-talk"
+                  className="text-yellow-500 inline-flex items-center"
+                >
+                  More
+                  <svg
+                    className="w-4 h-4 ml-2"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    fill="none"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  >
+                    <path d="M5 12h14"></path>
+                    <path d="M12 5l7 7-7 7"></path>
+                  </svg>
+                </a>
+              </div>
+            </div>
+            <div className="p-12 md:w-1/2 flex flex-col items-start">
+              <span className="text-red-400 inline-block py-1 px-2 rounded bg-yellow-50  text-xs font-medium tracking-widest">
+                Advertisements
+              </span>
+              <h2 className="sm:text-3xl text-2xl title-font font-medium text-blue-400 mt-4 mb-4">
+                Week 6
+              </h2>
+              <p className="text-pink-700 leading-relaxed mb-8">
+                The objective of this week was to look at advertisements which
+                had a good storyline, but were unable to get the attention of
+                the masses.
+              </p>
+              <div className="flex items-center flex-wrap pb-4 mb-4 border-b-2 border-green-300 mt-auto w-full">
+                <a
+                  href="/liv-con-week-6"
+                  className="text-yellow-500 inline-flex items-center"
+                >
+                  More
+                  <svg
+                    className="w-4 h-4 ml-2"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    fill="none"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  >
+                    <path d="M5 12h14"></path>
+                    <path d="M12 5l7 7-7 7"></path>
+                  </svg>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section className=" text-gray-600 body-font overflow-hidden">
+        <div className="container px-5 py-16 mx-auto">
+          <div className="flex flex-wrap -m-12">
+            <div className="p-12 md:w-1/2 flex flex-col items-start">
+              <span className="text-red-400 inline-block py-1 px-2 rounded bg-yellow-50  text-xs font-medium tracking-widest">
+                Misscommunication and how it affects
+              </span>
+              <h2 className="sm:text-3xl text-2xl title-font font-medium text-blue-400 mt-4 mb-4">
+                Week 7
+              </h2>
+              <p className="text-pink-700 leading-relaxed mb-8">
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                Explicabo, quae impedit? Ad eos, laborum tenetur ipsam ea error
+                earum illum et expedita cum ratione, deserunt rem, magni
+                laboriosam a repellendus?
+              </p>
+              <div className="flex items-center flex-wrap pb-4 mb-4 border-b-2 border-green-300 mt-auto w-full">
+                <a className="text-yellow-500 inline-flex items-center">
+                  More
+                  <svg
+                    className="w-4 h-4 ml-2"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    fill="none"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  >
+                    <path d="M5 12h14"></path>
+                    <path d="M12 5l7 7-7 7"></path>
+                  </svg>
+                </a>
+              </div>
+            </div>
+            <div className="p-12 md:w-1/2 flex flex-col items-start">
+              <span className="text-red-400 inline-block py-1 px-2 rounded bg-yellow-50  text-xs font-medium tracking-widest">
+                Assignment, Group Formation
+              </span>
+              <h2 className="sm:text-3xl text-2xl title-font font-medium text-blue-400 mt-4 mb-4">
+                Week 8
+              </h2>
+              <p className="text-pink-700 leading-relaxed mb-8">
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                Explicabo, quae impedit? Ad eos, laborum tenetur ipsam ea error
+                earum illum et expedita cum ratione, deserunt rem, magni
+                laboriosam a repellendus?
+              </p>
+              <div className="flex items-center flex-wrap pb-4 mb-4 border-b-2 border-green-300 mt-auto w-full">
+                <a className="text-yellow-500 inline-flex items-center">
+                  More
+                  <svg
+                    className="w-4 h-4 ml-2"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    fill="none"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  >
+                    <path d="M5 12h14"></path>
+                    <path d="M12 5l7 7-7 7"></path>
+                  </svg>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section className=" text-gray-600 body-font overflow-hidden">
         <div className="container px-5 py-16 mx-auto">
           <div className="flex flex-wrap -m-12">
             <div className="p-12 md:w-1/2 flex flex-col items-start">
@@ -242,7 +388,7 @@ const LivCon = () => {
                 Introduction
               </span>
               <h2 className="sm:text-3xl text-2xl title-font font-medium text-blue-400 mt-4 mb-4">
-                Week 5
+                Week 9
               </h2>
               <p className="text-pink-700 leading-relaxed mb-8">
                 Lorem ipsum dolor, sit amet consectetur adipisicing elit.
@@ -267,16 +413,13 @@ const LivCon = () => {
                   </svg>
                 </a>
               </div>
-              <a className="inline-flex items-center">
-                {/* <img alt="blog" src="https://dummyimage.com/104x104" className="w-12 h-12 rounded-full flex-shrink-0 object-cover object-center"> */}
-              </a>
             </div>
             <div className="p-12 md:w-1/2 flex flex-col items-start">
               <span className="text-red-400 inline-block py-1 px-2 rounded bg-yellow-50  text-xs font-medium tracking-widest">
                 Assignment, Group Formation
               </span>
               <h2 className="sm:text-3xl text-2xl title-font font-medium text-blue-400 mt-4 mb-4">
-                Week 6
+                Week 10
               </h2>
               <p className="text-pink-700 leading-relaxed mb-8">
                 Lorem ipsum dolor, sit amet consectetur adipisicing elit.
@@ -301,9 +444,6 @@ const LivCon = () => {
                   </svg>
                 </a>
               </div>
-              <a className="inline-flex items-center">
-                {/* <img alt="blog" src="https://dummyimage.com/103x103" className="w-12 h-12 rounded-full flex-shrink-0 object-cover object-center"> */}
-              </a>
             </div>
           </div>
         </div>

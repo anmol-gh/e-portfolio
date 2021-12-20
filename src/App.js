@@ -18,6 +18,7 @@ import LivConWeek1 from "./components/liv-con/liv-con-week1";
 import LivConWeek2 from "./components/liv-con/liv-con-week2";
 import LivConWeek3 from "./components/liv-con/liv-con-week3";
 import LivConWeek4 from "./components/liv-con/liv-con-week4";
+import LivConWeek6 from "./components/liv-con/liv-con-week6";
 import GuestTalks from "./components/lhtl/guest-talks";
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 function App() {
@@ -67,6 +68,11 @@ function App() {
         <Route exact path="/liv-con-week-4">
           <Navbar />
           <LivConWeek4 />
+          <Footer />
+        </Route>
+        <Route exact path="/liv-con-week-6">
+          <Navbar />
+          <LivConWeek6 />
           <Footer />
         </Route>
         <Route exact path="/lhtl-week1">
