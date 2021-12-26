@@ -10,7 +10,8 @@ const LivCon = () => {
             </h1>
             <a
               className="text-center transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110 inline-flex text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg"
-              href="/living-conversation-project"
+              href="https://drive.google.com/drive/folders/1ZWzL_OO6a96GqJI1FoFpUKUVRfMdm6H5"
+              target="_blank"
             >
               Group Project
             </a>
@@ -129,7 +130,9 @@ const LivCon = () => {
             </h2>
             <p className="text-pink-700 leading-relaxed mb-8">
               In the second week, we were assigned to create a group collage
-              with a slogan which reflects the essence and core of the team. We were also told about the assessment method, towards the end of the lecture a video related to communication was shown to us.
+              with a slogan which reflects the essence and core of the team. We
+              were also told about the assessment method, towards the end of the
+              lecture a video related to communication was shown to us.
             </p>
             <div className="flex items-center flex-wrap pb-4 mb-4 border-b-2 border-green-300 mt-auto w-full">
               <a

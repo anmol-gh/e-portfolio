@@ -19,7 +19,7 @@ import LivConWeek2 from "./components/liv-con/liv-con-week2";
 import LivConWeek3 from "./components/liv-con/liv-con-week3";
 import LivConWeek4 from "./components/liv-con/liv-con-week4";
 import LivConWeek6 from "./components/liv-con/liv-con-week6";
-import GuestTalks from "./components/lhtl/guest-talks";
+import GuestTalks from "./components/liv-con/guest-talks";
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 function App() {
   return (
